@@ -297,6 +297,12 @@ figure {
     padding: 3em 0;
   }
 }
+@media screen and (max-width: 768px) {
+    #fh5co-logo h1 {
+      font-size: 18px;
+    }
+  }
+
 .fh5co-cover .desc {
   top: 50%;
   position: absolute;
