@@ -473,7 +473,8 @@ figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-header-section {
-    padding: 2.4em 0;
+    padding: 1.2em 0;
+    top: 20px;
   }
 }
 
