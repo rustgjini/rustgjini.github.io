@@ -1390,13 +1390,13 @@ figure {
   text-decoration: none;
   &.active i {
 		&::before, &::after {
-			background: $brand-black;
+			background: #FA7E0A;
 		}
   }
   &.dark {
   	&.active i {
 			&::before, &::after {
-				background: $brand-black;
+				background:#FA7E0A;
 			}
 	  }
   }
@@ -1413,7 +1413,7 @@ figure {
 	  font:bold 14px/.4 Helvetica;
 	  text-transform: uppercase;
 	  text-indent:-55px;
-	  background: $brand-black;
+	  background: #FA7E0A;
 	  transition: all .2s ease-out;
 		 &::before, &::after {
 	  	  content:'';
@@ -1429,10 +1429,10 @@ figure {
   	i {
 	  	position: relative;
 		  color: $brand-black;
-		  background: $brand-black;
+		  background: #FA7E0A;
 		  transition: all .2s ease-out;
 			 &::before, &::after {
-			  background: $brand-black;
+			  background: #FA7E0A;
 			  @include transition(.2s);
 		  }
 	  }
@@ -1441,34 +1441,38 @@ figure {
 
 .fh5co-nav-toggle i::before {
   top: -7px;
+  background: #FA7E0A;
 }
 .fh5co-nav-toggle i::after {
   bottom: -7px;
+  background: #FA7E0A;
 }
 .fh5co-nav-toggle:hover i::before {
+  background: #FA7E0A;
   top: -10px;
 }
 .fh5co-nav-toggle:hover i::after {
   bottom: -10px;
+  background: #FA7E0A;
 }
 .fh5co-nav-toggle.active i {
 	background: transparent;
 }
 .fh5co-nav-toggle.active i::before {
   top:0;
-  -webkit-transform: rotateZ(45deg);
-     -moz-transform: rotateZ(45deg);
-      -ms-transform: rotateZ(45deg);
-       -o-transform: rotateZ(45deg);
-          transform: rotateZ(45deg);
+  -webkit-transform: rotateZ(90deg);
+     -moz-transform: rotateZ(90deg);
+      -ms-transform: rotateZ(90deg);
+       -o-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
 }
 .fh5co-nav-toggle.active i::after {
   bottom:0;
-  -webkit-transform: rotateZ(-45deg);
-     -moz-transform: rotateZ(-45deg);
-      -ms-transform: rotateZ(-45deg);
-       -o-transform: rotateZ(-45deg);
-          transform: rotateZ(-45deg);
+  -webkit-transform: rotateZ(-90deg);
+     -moz-transform: rotateZ(-90deg);
+      -ms-transform: rotateZ(-90deg);
+       -o-transform: rotateZ(-90deg);
+          transform: rotateZ(-90deg);
 }
 .fh5co-nav-toggle {
   	position: absolute;

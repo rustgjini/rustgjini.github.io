@@ -32,7 +32,7 @@ a {
 }
 a:hover {
   text-decoration: none !important;
-  color: #FA7E0A !important;
+  color: #fff !important;
 }
 
 p, ul, ol {
@@ -369,7 +369,7 @@ figure {
 }
 
 .sf-menu a {
-  color: rgba(0, 0, 0, 0.8);
+  color: #FA7E0A;
   padding: 2.4em 1em !important;
   font-weight: normal;
   border-left: none;
@@ -385,8 +385,8 @@ figure {
   letter-spacing: 1px;
 }
 .sf-menu a:hover, .sf-menu a:focus, .sf-menu a.active {
-  background: #e6e6e6 !important;
-  color: #000 !important;
+  background: #333131 !important;
+  color: #FA7E0A !important;
 }
 
 .sf-menu li,
@@ -458,7 +458,7 @@ figure {
 }
 
 #fh5co-header-section {
-  background: rgba(255, 255, 255, 0.95);
+  background: #1a1919;
   position: absolute;
   top: 40px;
   left: 0;
@@ -494,7 +494,7 @@ figure {
   margin-top: 1.2em;
 }
 #fh5co-logo a {
-  color: rgba(0, 0, 0, 0.9);
+  color: #FA7E0A;
 }
 #fh5co-logo a i {
   color: #FA7E0A;
@@ -502,7 +502,7 @@ figure {
   padding-right: 12px;
 }
 #fh5co-logo a:hover, #fh5co-logo a:focus {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color: #FA7E0A !important;
 }
 #fh5co-logo span {
   padding: 0;
@@ -761,6 +761,15 @@ figure {
 #fh5co-work-section, #fh5co-services-section,
 #fh5co-team-section, #fh5co-contact-section {
   padding: 7em 0;
+
+}
+
+#fh5co-team-section p {
+  color: #FA7E0A; 
+  background-color: #1a1919;
+  padding: 50px 50px 50px 50px;
+  border-radius: 2%;
+
 }
 
 .grid-project {
@@ -828,6 +837,7 @@ figure {
   float: left;
   width: 100%;
   display: block;
+  background: #1a1919;
 }
 
 @media screen and (max-width: 768px) {
@@ -835,6 +845,21 @@ figure {
     height: auto;
   }
 }
+
+@media screen and (max-width: 492px) {
+  .Logo {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .fh5co-nav-toggle {
+   top: 20px !important;
+  }
+}
+
 #fh5co-section .grid-project-section {
   width: 32.6%;
   float: left;
@@ -1098,27 +1123,27 @@ figure {
 
 .fh5co-social-icons > a {
   padding: 4px 10px;
-  color: #1a1919;
+  color: #FA7E0A;
 }
 .fh5co-social-icons > a i {
   font-size: 26px;
 }
 .fh5co-social-icons > a:hover, .fh5co-social-icons > a:focus, .fh5co-social-icons > a:active {
   text-decoration: none;
-  color: #212121;
+  color: white;
 }
 
 #footer {
   width: 100%;
   float: left;
-  background: #f2f2f2;
+  background:  #1a1919;
   padding: 5em 0em 30px;
 }
 #footer p {
-  color: rgba(2, 2, 2, 0.8);
+  color: #FA7E0A;
 }
 #footer .section-title {
-  color: rgba(2, 2, 2, 0.8);
+  color: #FA7E0A;
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 1px;
@@ -1138,7 +1163,7 @@ figure {
   color:rgba(2, 2, 2, 0.8);
 }
 #footer ul li a {
-  color: rgba(2, 2, 2, 0.8);
+  color: #FA7E0A !important;
   text-decoration: none !important;
 }
 #footer ul li a:hover {
@@ -1215,12 +1240,12 @@ figure {
   background: #FA7E0A !important;
 }
 #footer .copy-right {
-  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  border-top: 2px solid #FA7E0A;
   padding-top: 3em;
   margin-top: 3em;
 }
 #footer .copy-right p {
-  color: rgba(0, 0, 0);
+  color: #FA7E0A;
   font-size: 16px;
 }
 #footer .copy-right p a {
@@ -1249,6 +1274,7 @@ figure {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
 .fh5co-offcanvas #fh5co-page {
   -moz-transform: translateX(-240px);
   -webkit-transform: translateX(-240px);
@@ -1285,7 +1311,8 @@ figure {
 }
 #offcanvas-menu ul li a {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.4);
+  color: #FA7E0A;
+  
 }
 #offcanvas-menu ul li a:hover {
   color: #FA7E0A;
@@ -1327,14 +1354,14 @@ figure {
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #000;
+  background: #FA7E0A;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
   width: 30px;
   height: 2px;
-  background: #000;
+  background: #FA7E0A;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -1344,7 +1371,7 @@ figure {
 .fh5co-nav-toggle.dark i {
   position: relative;
   color: #000;
-  background: #000;
+  background: #FA7E0A;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle.dark i::before, .fh5co-nav-toggle.dark i::after {
