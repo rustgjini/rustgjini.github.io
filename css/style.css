@@ -457,10 +457,18 @@ figure {
   border-left-color: #ccc;
 }
 
+.project-p {
+  border-bottom: 10px solid #FA7E0A;
+  border-left: 2px solid #FA7E0A;
+  border-radius: 0px 30px;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
 #fh5co-header-section {
   background: #1a1919;
   position: absolute;
-  top: 40px;
+  top: 0px;
   left: 0;
   padding: 0;
   width: 100%;
@@ -474,7 +482,7 @@ figure {
 @media screen and (max-width: 768px) {
   #fh5co-header-section {
     padding: 1.2em 0;
-    top: 20px;
+    top: 0px;
   }
 }
 
