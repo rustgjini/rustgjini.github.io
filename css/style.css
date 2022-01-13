@@ -458,11 +458,13 @@ figure {
 }
 
 .project-p {
-  border-bottom: 10px solid #FA7E0A;
-  border-left: 2px solid #FA7E0A;
-  border-radius: 0px 30px;
-  margin-bottom: 20px;
+  border-bottom: 2px solid #FA7E0A;
+  margin-bottom: 39px;
   margin-top: -10px;
+}
+
+.project-p a::selection {
+  color: black;
 }
 
 #fh5co-header-section {
